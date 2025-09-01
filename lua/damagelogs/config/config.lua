@@ -76,49 +76,44 @@ Damagelog.ULX_Autoslay_ForceRole = true
 --Auto check Custom slay Reason
 Damagelog.Autoslay_CheckCustom = false
 -- Default autoslay reasons (ULX, SAM, sAdmin, and ServerGuard)
-Damagelog.Autoslay_DefaultReason = "Breaking Rules"
-Damagelog.Autoslay_DefaultReason1 = "Random Damage"
-Damagelog.Autoslay_DefaultReason2 = "RDM"
-Damagelog.Autoslay_DefaultReason3 = "2x RDM"
-Damagelog.Autoslay_DefaultReason4 = "Attempted Mass"
-Damagelog.Autoslay_DefaultReason5 = "Mass RDM"
-Damagelog.Autoslay_DefaultReason6 = "Super Mass"
-Damagelog.Autoslay_DefaultReason7 = "Ghosting"
-Damagelog.Autoslay_DefaultReason8 = "Hacking"
-Damagelog.Autoslay_DefaultReason9 = "Prop kill"
-Damagelog.Autoslay_DefaultReason10 = "Consistent RDM"
-Damagelog.Autoslay_DefaultReason11 = "Trolling"
-Damagelog.Autoslay_DefaultReason12 = "Minge"
+Damagelog.Autoslay_DefaultReason = "RDM"
+Damagelog.Autoslay_DefaultReason1 = "2x RDM"
+Damagelog.Autoslay_DefaultReason2 = "Breaking Rules"
+Damagelog.Autoslay_DefaultReason3 = "Attempted Mass RDM"
+Damagelog.Autoslay_DefaultReason4 = "Mass RDM"
+Damagelog.Autoslay_DefaultReason5 = "Ghosting"
+Damagelog.Autoslay_DefaultReason6 = "Hacking/Cheating"
+Damagelog.Autoslay_DefaultReason7 = "Multiple prop kills"
+Damagelog.Autoslay_DefaultReason8 = "Consistent RDM"
+Damagelog.Autoslay_DefaultReason9 = "Trolling"
 
 -- Default ban reasons (ULX and ServerGuard)
-Damagelog.Ban_DefaultReason1 = "Random Damage and leave"
-Damagelog.Ban_DefaultReason2 = "RDM and leave"
-Damagelog.Ban_DefaultReason3 = "2x RDM and leave"
-Damagelog.Ban_DefaultReason4 = "Attempted Mass and leave"
-Damagelog.Ban_DefaultReason5 = "Mass RDM"
-Damagelog.Ban_DefaultReason6 = "Super Mass"
-Damagelog.Ban_DefaultReason7 = "Ghosting"
-Damagelog.Ban_DefaultReason8 = "Hacking"
-Damagelog.Ban_DefaultReason9 = "Consistent RDM"
-Damagelog.Ban_DefaultReason10 = "Attempted RDM"
-Damagelog.Ban_DefaultReason11 = "Random Damage"
-Damagelog.Ban_DefaultReason12 = "Trolling"
+Damagelog.Ban_DefaultReason1 = "RDM and leave"
+Damagelog.Ban_DefaultReason2 = "2x RDM and leave"
+Damagelog.Ban_DefaultReason3 = "Attempted Mass and leave"
+Damagelog.Ban_DefaultReason4 = "Mass RDM"
+Damagelog.Ban_DefaultReason5 = "Ghosting"
+Damagelog.Ban_DefaultReason6 = "Hacking/Cheating"
+Damagelog.Ban_DefaultReason7 = "Consistent RDM"
+Damagelog.Ban_DefaultReason8 = "Attempted RDM"
+Damagelog.Ban_DefaultReason9 = "Multiple prop kills"
+Damagelog.Ban_DefaultReason10 = "Trolling"
 -- The number of days the logs last on the database (to avoid lags when opening the menu)
 Damagelog.LogDays = 61
 -- Hide the Donate button on the top-right corner
-Damagelog.HideDonateButton = false
+Damagelog.HideDonateButton = true
 -- Use the Workshop to download content files
 Damagelog.UseWorkshop = true
 -- Force a language - When empty use user-defined language
 Damagelog.ForcedLanguage = ""
 -- Allow reports even with no staff online
-Damagelog.NoStaffReports = false
+Damagelog.NoStaffReports = true
 -- Allow more than 2 reports per round
 Damagelog.MoreReportsPerRound = false
 -- Allow reports before playing
 Damagelog.ReportsBeforePlaying = false
 -- Private message prefix from RDM Manager
-Damagelog.PrivateMessagePrefix = "[RDM Manager]"
+Damagelog.PrivateMessagePrefix = "[SmolTown RDM Manager]"
 -- Allow banning thru the RDMManager
 Damagelog.AllowBanningThruManager = true
 
